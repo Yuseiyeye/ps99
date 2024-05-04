@@ -1,3 +1,4 @@
+
 getgenv().Config = {
 
     HUGE_GAMES_AUTHKEY = "HUGE_X1Armld2Wy36",
@@ -19,7 +20,7 @@ getgenv().Config = {
             Type = "Misc",
         },
         {
-            Item = "Epic Glitch Core"
+            Item = "Epic Glitch Core",
             Price = 25000,
             Type = "Misc" ,
         },

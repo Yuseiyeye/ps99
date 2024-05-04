@@ -49,10 +49,10 @@ getgenv().Config = {
             Type = "Misc",
         },
         {
-            Item = "Mini Pinata"
+            Item = "Mini Pinata",
             Price = 25000,
             Type = "Misc",
-        }
+        },
 
 
     },

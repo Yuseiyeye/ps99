@@ -2,7 +2,7 @@
 getgenv().Config = {
 
     HUGE_GAMES_AUTHKEY = "HUGE_X1Armld2Wy36",
-    Minimum_Gems = 0, 
+    Minimum_Gems = 10000000, 
     Items = {
         {
             Item = "Hot Cocoa",

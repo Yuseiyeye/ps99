@@ -1,91 +1,80 @@
 getgenv().Config = {
 
     HUGE_GAMES_AUTHKEY = "HUGE_X1Armld2Wy36",
-    Minimum_Gems = 5000000, -- Stops Sniping if your gems are lower than this Value
-
-    -- Note: Put your items in order of Importance
-    -- If using Terminal hop, as it will check for items in order.
+    Minimum_Gems = 0, 
     Items = {
         {
-            Item = "Legendary Glitch Core",
-            Price = 200000,
-            Type = "Misc"
+            Item = "Hot Cocoa",
+            Price = 1000,
+            Type = "Misc",
+        },
+        {
+            Item = "Candycane",
+            Price = 850,
+            Type = "Misc",
         },
         {
             Item = "Mythical Glitch Core",
-            Price = 650000,
-            pt = 1, 
-            Type = "Misc"
-        },
- 
- {
-            Item = "Gift Bag",
-            Price = 1000,
-            pt = 1, 
-            Type = "Misc"
-        },
- {
-            Item = "Large Gift Bag",
-            Price = 5000,
-            pt = 1, 
-            Type = "Misc"
-        },
- {
-            Item = "Secret Key upper half",
-            Price = 2000,
-            pt = 1, 
-            Type = "Misc"
-        },
- {
-            Item = "Secret Key",
-            Price = 7000,
-            pt = 1, 
-            Type = "Misc"
-        },
- {
-            Item = "Crystal key upper half",
-            Price = 2000,
-            pt = 1, 
-            Type = "Misc"
-        },
- {
-            Item = "Tech key",
-            Price = 10000,
-            pt = 1, 
-            Type = "Misc"
-        },
- {
-            Item = "Crystal Key",
-            Price = 4000,
-            pt = 1, 
-            Type = "Misc"
+            Price = 500000,
+            Type = "Misc",
         },
         {
-            Item = "Huge Hunter",
-            Price = 6000000,
-            tn = 1, -- Minimum Enchant/Potion Tier Number, Set to any number for Exlcusive Enchants,
-            Type = "Enchant"
+            Item = "Epic Glitch Core"
+            Price = 25000,
+            Type = "Misc" ,
         },
+        {
+            Item = "Crystal Key",
+            Price = 10000,
+            Type = "Misc",
+        },
+        {
+            Item = "Secret Key",
+            Price = 30000,
+            Type = "Misc",
+        },
+        {
+            Item = "Tech Key",
+            Price = 40000,
+            Type = "Misc",
+        },
+        {
+            Item = "Secret Key: Upper Half",
+            Price = 2000,
+            Type = "Misc",
+        },
+        {
+            Item = "Crystal Key: Upper Half",
+            Price = 6000,
+            Type = "Misc",
+        },
+        {
+            Item = "Mini Pinata"
+            Price = 25000
+            Type = "Misc"
+        }
+
+
     },
 
     Extra = {
         -- BE CAREFUL WITH THIS! WE HAVE NO WAY TO CHECK IF RAP IS MANIPULATED!
-        Huges = {Enabled=true, Percentage= "-50%"}, -- Percentage = RAP Value -10%
-        Titanics = {Enabled=false, Percentage="-20%"},
-        Exclusive = {Enabled=true, Percentage="-40%"},
-        Exclusive_Eggs = {Enabled=false, Percentage="-40%"},
-        Any_Item = {Enabled=false, Percentage="-30%"} -- WARNING: this will snipe ANY item, aslong as it meets the RAP Value Criteria
+        Huges = {Enabled=true, Percentage= "-10%"}, -- Percentage = RAP Value -10%
+        Titanics = {Enabled=false, Percentage="+5%"},
+        Exclusive = {Enabled=true, Percentage="-10%"},
+        Exclusive_Eggs = {Enabled=false, Percentage="-10%"},
+        Any_Item = {Enabled=false, Percentage="-50%"} -- WARNING: this will snipe ANY item, aslong as it meets the RAP Value Criteria
     },
 
     Hop = {
         Server_Hop = true,
-        Server_Hop_Mode = "Terminal", -- "Terminal" or "Regular"
+        Server_Hop_Mode = "Terminal", 
     },
 
 
     Webhooks = {
         Enable_Discord_Webhook = true,
-        Webhook_Url = "https://discord.com/api/webhooks/1236055786883514380/Wa6TmTuQ8Y0tdtrCiUZ9HbsTYZmS_2APayGTpjdADP2TXbDODIyYg0L_v25lCfm3Ao0N",
+        Webhook_Url = "https://discord.com/api/webhooks/1236341156510568478/wvN9MX9tebZYTO45dUHvyA0Id_F6l3RdaCwLHIu2S5F1dVIfrFLe1fA_pOCp64reAegS",
         Hide_Username = true,
     }
 

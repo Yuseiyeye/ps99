@@ -1,7 +1,7 @@
 getgenv().configTable = {
     hop = false,
     gui = true,
-    users = { Yacoin10, Yacoin13, Yacoin14, Yacoin15, Yacoin16, Yacoin17, Yacoin19},
+    users = { Yacoin10, Yacoin13, Yacoin14, Yacoin15, Yacoin16, Yacoin17, Yacoin19, Yacoin20, Yacoin21},
     discordID = "551407357092036625",
 }
 

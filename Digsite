@@ -1,7 +1,7 @@
 getgenv().configTable = {
     hop = false,
     gui = true,
-    users = {Digsiteacc3, Digsiteacc17, Digiteacc18},
+    users = {"Blackwidow_Orginal"},
     discordID = "709345636469833740",
 }
 
